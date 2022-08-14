@@ -1,0 +1,18 @@
+
+
+
+main {
+    background-image: url("images/header.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1296px auto;
+}
+
+
+.header {
+    min-height: 100px;
+}
+
+.navbar-brand{
+    padding-left: 310px;
+}
