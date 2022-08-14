@@ -10,9 +10,34 @@ main {
 
 
 .header {
-    min-height: 100px;
+    height: 240px;
+}
+.header div{
+    padding: 180px 0 0 300px;
+    font-size: 50px;
+    color: #222244;
 }
 
-.navbar-brand{
-    padding-left: 310px;
+
+.navbar{
+    padding-left: 410px;
+}
+
+/*
+.foot-left, 
+.footer-right{
+
+}
+*/
+
+.main-content img {
+    border: #222244 2px solid;
+    border-radius: 2px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.footer-right{
+    text-align: right;
 }
