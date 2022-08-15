@@ -39,6 +39,25 @@ main {
     border-radius: 2px;
     margin: 10px;
     text-align: center;
+    clear: both;
+}
+.main-content a{
+    color: #222244;
+}
+.main-content hr{
+    margin: 20px 0px !important;
+    border: 0 !important;
+    opacity: 1 !important;
+    height: 2px !important;
+    background: rgba(22, 22, 44, 0.2) !important;
+}
+
+footer{
+    clear: both;
+}
+
+footer > div.container{
+    border-top: rgba(22, 22, 44, 0.2) 2px solid;
 }
 
 

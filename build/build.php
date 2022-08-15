@@ -67,12 +67,12 @@ foreach($build_data AS $this_build => $this_data) {
 
 /* Image section */
 
-$small_width = 200;
-$small_height = 200;
-$medium_width = 400;
-$medium_height = 400;
-$large_width = 800;
-$large_height = 800;
+$small_width = 400;
+$small_height = 400;
+$medium_width = 600;
+$medium_height = 600;
+$large_width = 1000;
+$large_height = 1000;
 
 foreach ( glob("../assets/images/*_small.jpg" ) as $filename) {
     echo "delete " . $filename . "\n";
@@ -117,6 +117,17 @@ foreach ( glob("../design/original_photos/*.jpg" ) as $full_filename) {
     # save it out
     imagejpeg($new_image_object, $large_filename);
 
+}
+echo " \n";
+
+
+
+echo "Image HTML to paste in \n";
+
+foreach ( glob("../assets/images/*_small.jpg" ) as $filename) {
+
+    
+    echo "<img src=\"" . str_replace("../", "", $filename) . "\" alt=\"Photo of Compass Point Estate\" /> \n";
 
 }
 
@@ -128,14 +139,12 @@ foreach ( glob("../design/original_photos/*.jpg" ) as $full_filename) {
 function resize_image( $image_obj, $max_width, $max_height ) {
     $input_width = imagesx($image_obj);
     $input_height = imagesy($image_obj);
-
-    echo "max size: " . $max_width . "x" .  $max_height . "\n";
+    
     $max_ratio = $max_width / $max_height;
-    echo "max_ratio: " . $max_ratio . "\n";
-
-    echo "input size: " . $input_width . "x" .  $input_height . "\n";      
+    echo "max size: " . $max_width . "x" .  $max_height . ", max_ratio: " . $max_ratio . "\n";
+    
     $input_ratio = $input_width / $input_height;
-    echo "input_ratio: " . $input_ratio . "\n"; 
+    echo "input size: " . $input_width . "x" .  $input_height . ", input_ratio: " . $input_ratio . "\n"; 
     
     if($input_ratio > $max_ratio) {
         # wider than max, so width is the limiter
