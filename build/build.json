@@ -1,30 +1,34 @@
 {
-   "contacts": {
-        "title": "Contacts",
-        "description": "Contact details for Compass Point Estate"
-   },
-   "facilities": {
-        "title": "Facilities",
-        "description": "Information about facilities on Compass Point Estate"    
-   },
-   "history": {
+    "index": {
+        "title": "Compass Point Estate",
+        "description": "Welcome to Compass Point Estate"    
+    },
+    "history": {
         "title": "History",
         "description": "The history of Compass Point Estate"    
     },
-   "index": {
-        "title": "Compass Point Estate",
-        "description": "Welcome to Compass Point Estate"    
+    "facilities": {
+        "title": "Facilities",
+        "description": "Information about facilities on Compass Point Estate"    
+    },
+    "residents-association": {
+        "title": "Residents Association",
+        "description": "Compass Point Estate residents association"    
+    },
+    "parking": {
+        "title": "Parking",
+        "description": "Parking in Compass Point Estate"    
     },
    "living-on-the-estate": {
         "title": "Living on the estate",
         "description": "Information about living in Compass Point Estate"    
     },
-   "parking": {
-        "title": "Parking",
-        "description": "Parking in Compass Point Estate"    
+    "contacts": {
+        "title": "Contacts",
+        "description": "Contact details for Compass Point Estate"
     },
-   "residents-association": {
-        "title": "Residents Association",
-        "description": "Compass Point Estate residents association"    
+    "legals": {
+        "title": "Privacy and Terms",
+        "description": "Privacy policy and terms and conditions for this website"
     }
 }
