@@ -124,11 +124,8 @@ echo " \n";
 
 echo "Image HTML to paste in \n";
 
-foreach ( glob("../assets/images/*_small.jpg" ) as $filename) {
-
-    
+foreach ( glob("../assets/images/*.jpg" ) as $filename) {  
     echo "<img src=\"" . str_replace("../", "", $filename) . "\" alt=\"Photo of Compass Point Estate\" /> \n";
-
 }
 
 
