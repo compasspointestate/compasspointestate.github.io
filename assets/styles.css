@@ -64,3 +64,28 @@ footer > div.container{
 .footer-right{
     text-align: right;
 }
+
+
+
+
+@media (max-width: 768px) { 
+    main{
+        background-size: 100%;
+    }
+    .header  {
+        height: auto;
+    }
+    .header > div > span{
+        display: none;
+    }
+    .header > div {
+        padding: 90px 0 0 84px;
+        font-size: 20px;
+    }
+    .navbar-toggler,
+    #navbar_cpe {
+        background-color: #fff;
+    }
+
+  
+}
