@@ -24,7 +24,17 @@ main {
 
 
 .navbar{
-    padding-left: 410px;
+    padding-left: 300px;
+}
+
+#navbar_cpe {
+    background-color: #fff;
+    
+    font-size: 20px;
+    border-radius: 6px;
+}
+#navbar_cpe a {
+    color: #222244 !important;
 }
 
 /*
@@ -51,6 +61,9 @@ main {
     height: 2px !important;
     background: rgba(22, 22, 44, 0.2) !important;
 }
+.main-content h1{
+    margin-top: 20px;
+}
 
 footer{
     clear: both;
@@ -66,7 +79,20 @@ footer > div.container{
 }
 
 
+@media (max-width: 1200px) { 
+    .header > div > span{
+        display: none;
+    }
+}
 
+@media (max-width: 992px) { 
+    .header > div > span{
+        display: none;
+    }
+    .header div{
+        padding: 170px 0 0 0px;
+    }
+ }
 
 @media (max-width: 768px) { 
     main{
