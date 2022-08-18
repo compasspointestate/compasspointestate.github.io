@@ -79,20 +79,40 @@ footer > div.container{
 }
 
 
+@media (max-width: 1400px) { 
+    .header > div > span{
+        display: none;
+    }
+    .header div,
+    .navbar{
+        padding-left: 200px;
+    }
+}
+
 @media (max-width: 1200px) { 
     .header > div > span{
         display: none;
     }
+    .header div,
+    .navbar{
+        padding-left: 130px;
+    }
 }
 
 @media (max-width: 992px) { 
+    /* at this point the mobile menu displays */
     .header > div > span{
         display: none;
     }
-    .header div{
-        padding: 170px 0 0 0px;
+    .header div,
+    .navbar{
+        padding-left: 0;
     }
- }
+    .navbar-toggler,
+    #navbar_cpe {
+        background-color: #fff;
+    }
+}
 
 @media (max-width: 768px) { 
     main{
@@ -105,13 +125,7 @@ footer > div.container{
         display: none;
     }
     .header > div {
-        padding: 90px 0 0 84px;
         font-size: 20px;
-    }
-    .navbar-toggler,
-    #navbar_cpe {
-        background-color: #fff;
-    }
-
-  
+        padding-top: 130px;
+    } 
 }

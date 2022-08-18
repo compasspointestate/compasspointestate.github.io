@@ -6,8 +6,10 @@ Compass Point is a quiet residential area, located on the eastern side of the Is
 
 ## Build system
 
-The build system updates images and the top and bottom of each page.  To run it
+The build system updates images and the top and bottom of each page.  To run it...
+
 `cd build`
+
 `php build.php`
 
 
@@ -39,4 +41,5 @@ The build system updates images and the top and bottom of each page.  To run it
 ## Handy commands
 
 Replace h2 with h4...
+
 `sed -i 's/h2/h4/g' *.html`
