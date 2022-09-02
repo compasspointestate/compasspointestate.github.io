@@ -81,6 +81,7 @@ footer > div.container{
 }
 .footer-mid a{ 
     color: #393946;
+    text-decoration: none;
 }
 .footer-right{
     text-align: right;
