@@ -79,6 +79,9 @@ footer > div.container{
     text-align: center;
     font-size: 10px;
 }
+.footer-mid a{ 
+    color: #393946;
+}
 .footer-right{
     text-align: right;
 }
