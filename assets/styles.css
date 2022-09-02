@@ -75,7 +75,10 @@ footer > div.container{
     border-top: rgba(22, 22, 44, 0.2) 2px solid;
 }
 
-
+.footer-mid{
+    text-align: center;
+    font-size: 12px;
+}
 .footer-right{
     text-align: right;
 }
